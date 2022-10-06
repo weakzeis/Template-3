@@ -1,0 +1,183 @@
+
+  
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+  }
+
+  input{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border: none;
+  }
+
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  
+ul,
+li,
+p{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  }
+  
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  min-height: 79px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  
+}
+
+.logo {
+  padding-top: 24.9px;
+ 
+  float: left;
+
+}
+
+.nav__menu{
+  padding-top: 31.5px;
+  padding-left: 222.5px;
+  float: left;
+}
+.menu__item{
+  display: inline-block;
+}
+.menu__item+.menu__item{
+  padding-left: 27.85px;
+}
+
+.menu__ul li:first-child{
+  font-weight: 700;
+  color: #3563E9;
+}
+
+.reg__buttons{
+  padding-top: 22px;
+  float: right;
+}
+
+.reg__button{
+  font-family: inter;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 22px;
+  gap: 10px;
+  width: 102px;
+  height: 35px;
+  border: 1px solid #3563E9;
+  border-radius: 5px;
+  color: #3563E9;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.reg__buttons .reg__button{
+  display: inline-block;
+}
+
+.reg__buttons button:nth-child(2){
+  background: #3563E9;
+  color: #FFF;
+}
+
+.main__frame{
+  width: 100%;
+  min-height: 735px;
+  background-color: #3563E9;
+}
+
+.main__text{
+  padding-top: 198.5px;
+  Font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+
+.description__text{
+  padding-top: 16px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FAFAFA;
+}
+
+.input__form{
+  padding-top: 50px;
+  padding-left: 350px;
+}
+
+.email__form{
+  float: left;
+  width: 375px;
+  min-height: 52px;
+  background: #2851E3;
+  border-radius: 5px;
+}
+
+input.email__form::placeholder{
+  width: 110px;
+  height: 19px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+  color: #E0E0E0;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding-left: 54px;
+}
+
+.email__form:first-child{
+  background-image: url(../img/email_icon.svg);
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: top 14px left 20px;
+}
+
+.email__button{
+  margin-left: 20px;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.46px;
+  align-items: center;
+  padding: 8px 22px;
+  width: 105px;
+  height: 52px;
+  border: 1px solid #3563E9;
+  border-radius: 5px;
+  color: #3563E9;
+}
